@@ -22,7 +22,7 @@ $user = $_SESSION['user'];
 </head>
 <body class="bg-gray-900 font-sans leading-normal tracking-normal">
     <div class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-        <div class="w-2xl maxspace-y-8 p-10 rounded-xl shadow-2xl card-bg transform transition duration-500 hover:scale-105">
+        <div class="w-full maxspace-y-8 p-10 m-10 rounded-xl shadow-2xl card-bg transform transition duration-500 hover:scale-105">
             <div class="text-center">
                 <svg class="mx-auto h-12 w-12 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2l4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -50,7 +50,7 @@ $user = $_SESSION['user'];
                 </div>
                 <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
                     <p class="text-sm font-medium text-gray-500">Your Hashed Password</p>
-                    <p class="mt-1 text-lg font-semibold text-gray-900 "><?php echo $user['password']; ?></p>
+                    <p class="mt-1 text-lg font-semibold text-gray-900"><?php echo $user['password']; ?></p>
                 </div>
             </div>
 
