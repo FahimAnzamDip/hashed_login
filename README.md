@@ -55,6 +55,6 @@ A simple PHP-based login and registration system using hashed passwords and a My
 - GMP PHP extension (only for `sha512.php`)
 
 ## Screenshots
-- ![Login Page](screenshots/ss_2.png)
-- ![Register Page](screenshots/ss_1.png)
-- ![Dashboard](screenshots/ss_3.png)
+![Login Page](screenshots/ss_2.png)
+![Register Page](screenshots/ss_1.png)
+![Dashboard](screenshots/ss_3.png)
