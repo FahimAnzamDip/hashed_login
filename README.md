@@ -2,6 +2,15 @@
 
 A simple PHP-based login and registration system using hashed passwords and a MySQL database. The project demonstrates secure user authentication and session management with a modern Tailwind CSS UI.
 
+# Team Members
+TeamSN : 10
+
+| Student ID  | Name              |
+|-------------|-------------------|
+| 221015051   | Selim Sheikh      |
+| 221015056   | Fahim Anzam Dip   |
+| 221015063   | Imran Hossain Sohag |
+
 ## Features
 - User registration with password hashing (`password_hash`)
 - User login with password verification (`password_verify`)
